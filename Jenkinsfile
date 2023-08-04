@@ -4,7 +4,7 @@ pipeline {
     stages {
         step {
             script {
-                dockerImage = docker.build('demoJenkinsMvc:latest')
+                dockerImage = docker.build('demojenkinsmvc:latest')
             }
         }
     }
